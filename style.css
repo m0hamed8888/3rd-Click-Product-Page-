@@ -322,11 +322,16 @@ body.open .burger {
 }
 
  .container .product-description h1 {
+  text-align: end;
+  margin: 1rem 0 1rem 0;
   font-size: 3em;
   margin: 0;
 }
 
 .container .product-description h2 {
+  width: 50%;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
   font-size: 1.5em;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -360,6 +365,9 @@ body.open .burger {
   }
   .container .product-description h1 {
     font-size: 2.5em;
+  }
+  .container .product-description h1 { 
+    text-align: center;
   }
 }
 /* !End main  product */
@@ -925,6 +933,9 @@ input[type="email"] {
   }
   .why-icons {
     width: 100%;
+  }
+  .container .product-description h2 {
+    width: 70%;
   }
 }
 
